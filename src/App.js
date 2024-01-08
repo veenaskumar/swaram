@@ -1,9 +1,9 @@
 import './App.css';
-
+import Main from './pages/main';
 function App() {
   return (
     <div className="App">
-      <h1 className='font-bold text-3xl'>Welcome to swaram</h1>
+      <Main />
     </div>
   );
 }
