@@ -8,15 +8,14 @@ import Contact from '../components/contact'
 
 function Main() {
   return (
-    <div>
-      <Navbar />
+     
+      <div >
       <Home  />
       <About />
       <Gallary />
       <Ourteam />
       <Contact />
-
-    </div>
+      </div>
 
   )
 }
