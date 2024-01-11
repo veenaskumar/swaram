@@ -5,13 +5,16 @@ import About from '../components/about'
 import Gallary from '../components/gallary'
 import Ourteam from '../components/ourteam'
 import Contact from '../components/contact'
+import SideWindow from '../components/popup'
 
 function Main() {
   return (
      
-      <div >
-      <Home  />
+      <div>
+       <Home />
+       <br />
       <About />
+      <SideWindow></SideWindow>
       <Gallary />
       <Ourteam />
       <Contact />
