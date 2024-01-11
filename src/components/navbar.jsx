@@ -2,7 +2,6 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
 
-
 function Navbar() {
     const handleSetActive = (to) => {
         console.log(to);

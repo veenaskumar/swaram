@@ -4,14 +4,16 @@ import About from '../components/about'
 import Gallary from '../components/gallary'
 import Ourteam from '../components/ourteam'
 import Contact from '../components/contact'
+import SideWindow from '../components/popup'
 import Sponsers from '../components/sponsers'
 function Main() {
   return (
-
-    <div>
+     
+      <div>
       <Home />
       <Sponsers />
       <About />
+      <SideWindow />
       <Gallary />
       <Ourteam />
       <Contact />
