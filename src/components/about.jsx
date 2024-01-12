@@ -2,9 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-    <div  id='about' className='m'></div>
-    <div className='h-[100vh] mt-[50px]'>about</div>
+    <div className='font-bold text-[28px]'>
+      <div id='about'></div>
+      <h1 className='h-[100vh] mt-[50px]'>About</h1>
     </div>
   )
 }
