@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from 'react';
 import confetti from 'canvas-confetti';
-import Swiper from 'swiper';
 import './style.css'
 
 const SideWindow = () => {
@@ -28,9 +27,9 @@ useEffect(() => {
   }, []);
 const renderDivs = () => {
     const divs = [
-      <div className="w-[390px] h-[400px] bg-green-500 border-2 border-green-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
-      <div className="w-[390px] h-[400px] bg-blue-500 border-2 border-blue-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
-      <div className="w-[390px] h-[400px] bg-red-500 border-2 border-black-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
+      <div className=" ml-[15px] w-[300px] h-[300px] bg-green-500 border-2 border-green-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
+      <div className="ml-[15px] w-[300px] h-[300px] bg-blue-500 border-2 border-blue-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
+      <div className="ml-[15px] w-[300px] h-[300px] bg-red-500 border-2 border-black-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
     ];
     return divs.map((div, index) => (
       <div key={index} style={{ display: index === visibleIndex ? 'block' : 'none' }} className={`transition-opacity duration-500 ease-in-out opacity-${index === visibleIndex ? '100' : '0'} `}>
@@ -38,24 +37,12 @@ const renderDivs = () => {
       </div>
     ));
   };
-  
-  
-  
-  const openPopup = () => {
-    setShowPopup(true);
-    confetti({
-        particleCount: 1000,
-        spread: 700,
-        origin: { y: 0.4 },
-      });
-  };
-
   const closePopup = () => {
     setShowPopup(false);
   };
 
   return (
-    <div className="relative w-72 a">
+    <div className="relative w-[700px]">
       <div className="fixed top-1/2 right-4 transform -translate-y-1/2 z-50">
         {/* <button onClick={openPopup} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
           <i className="fas fa-user" />
