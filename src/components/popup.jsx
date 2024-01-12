@@ -1,42 +1,24 @@
 import React, { useState,useEffect } from 'react';
-import confetti from 'canvas-confetti';
-import './style.css'
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faX } from '@fortawesome/free-solid-svg-icons';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import { RxCross2 } from "react-icons/rx";
+import './popup.css';
+import { Autoplay } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 const SideWindow = () => {
+  SwiperCore.use([Autoplay, EffectCoverflow, Pagination]);
   const [showPopup, setShowPopup] = useState(false);
-  const [visibleIndex, setVisibleIndex] = useState(0);
-useEffect(() => {
-    const interval = setInterval(() => {
-      setVisibleIndex((prevIndex) => (prevIndex + 1) % 3); // Toggle between 0, 1, and 2
-    }, 2000); // Change slides every 2 seconds
- 
-    return () => clearInterval(interval); // Cleanup function to clear the interval on component unmount
-  }, []);
   useEffect(() => {
-    // Delaying the appearance of the pop-up after 5 seconds
     const timeout = setTimeout(() => {
       setShowPopup(true);
-      confetti({
-        particleCount: 1000,
-        spread: 700,
-        origin: { y: 0.4 },
-      });
     }, 5000); // 5000 milliseconds = 5 seconds
 
     return () => clearTimeout(timeout); // Clear the timeout on component unmount
   }, []);
-const renderDivs = () => {
-    const divs = [
-      <div className=" ml-[15px] w-[300px] h-[300px] bg-green-500 border-2 border-green-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
-      <div className="ml-[15px] w-[300px] h-[300px] bg-blue-500 border-2 border-blue-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
-      <div className="ml-[15px] w-[300px] h-[300px] bg-red-500 border-2 border-black-500 transition-opacity duration-2500 ease-in opacity-100">hi</div>,
-    ];
-    return divs.map((div, index) => (
-      <div key={index} style={{ display: index === visibleIndex ? 'block' : 'none' }} className={`transition-opacity duration-500 ease-in-out opacity-${index === visibleIndex ? '100' : '0'} `}>
-        {div}
-      </div>
-    ));
-  };
   const closePopup = () => {
     setShowPopup(false);
   };
@@ -49,14 +31,65 @@ const renderDivs = () => {
         </button> */}
       </div>
       {showPopup && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded" style={{ width: '30%', height: '70%' }}>
-          <button onClick={closePopup} className="block mx-[320px] mt-[-9px] px-4 py-2  text-blue rounded">
-              Close
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center direction-column flex-col">
+          {/* <div className="bg-white p-6 rounded" style={{ width: '30%', height: '70%' }}> */}
+          <button onClick={closePopup} className="mx-[1000px] mt-[0px] text-lg  text-white rounded">
+          <FontAwesomeIcon icon={faX} />
             </button>
-            {renderDivs()}
+          <Swiper
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                loop={true}
+                slidesPerView={'auto'}
+                autoplay={{
+                  delay: 3000, // Set the delay in milliseconds between slides
+                  disableOnInteraction: false, // Allow interaction to stop autoplay
+                }}
+                coverflowEffect={{
+                  rotate: 50,
+                  stretch: -100,
+                  depth: 500,
+                  modifier: 1,
+                  slideShadows: true,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Autoplay,EffectCoverflow, Pagination]}
+                className="mySwiper"
+                 >              
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+        </SwiperSlide>
+      </Swiper>
+            
           </div>
-        </div>
+        // </div>
       )}
     </div>
   );
