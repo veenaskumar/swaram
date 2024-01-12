@@ -35,7 +35,7 @@ const Navbar1 = () => {
                     <li className='nav-item'>
                         <a href='#about' onClick={closeMenu} spy={true}
                     smooth={true}
-                    offset={-100}
+                    offset={-200}
                     duration={500}
                     onSetActive={handleSetActive}>About</a>
                     </li>
@@ -45,6 +45,13 @@ const Navbar1 = () => {
                     offset={-100}
                     duration={500}
                     onSetActive={handleSetActive}>Gallary</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#contact' onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Social Activites</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#ourteam' onClick={closeMenu} spy={true}
@@ -60,6 +67,7 @@ const Navbar1 = () => {
                     duration={500}
                     onSetActive={handleSetActive}>Contact</a>
                     </li>
+
                 </ul>
             </nav>
         </div>
