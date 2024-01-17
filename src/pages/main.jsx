@@ -12,7 +12,7 @@ function Main() {
       <div>
       <Home />
       <Sponsers />
-      <About />
+      <About /><br />
       <SideWindow />
       <Gallary />
       <Ourteam />
