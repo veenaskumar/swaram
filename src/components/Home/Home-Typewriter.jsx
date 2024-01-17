@@ -1,19 +1,26 @@
 import React from 'react';
-import '../../stylesheet/Home-type.css'; // Make sure to replace with the correct CSS file name
+import { Typewriter } from 'react-simple-typewriter'
 
-const Typewritter = () => {
+const TypewriterComponent = () => {
+
   return (
-    <div className="wrapper">
-      <div className="static-txt">Let's</div>
-      <ul className="dynamic-txts">
-        <li><span>Dance </span></li>
-        {/* <li><span>Sing</span></li> */}
-        <li><span>Enjoy</span></li>
-        <li><span>Vibe</span></li>
-      </ul>
-      <div className="static-txt">together</div>
+    <div>
+      <h1 style={{ paddingTop: '2rem',fontSize:'70px', margin: 'auto 0' ,color:'white'}}>
+        Let's{' '}
+        <span style={{ color: 'red', fontWeight: 'normal' }}>
+          <Typewriter
+            words={['Sing', 'Dance', 'Vibe', 'Repeat!']}
+            loop="false"
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
+      </h1>
     </div>
   );
-}
+};
 
-export default Typewritter;
+export default TypewriterComponent;
