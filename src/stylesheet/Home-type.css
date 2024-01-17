@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #343F4F;
-}
+
 .wrapper{
   display: flex;
 }
 .wrapper .static-txt{
   color: #fff;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 400;
 }
 .wrapper .dynamic-txts{
@@ -29,7 +17,7 @@ body{
 .dynamic-txts li{
   list-style: none;
   color: #FC6D6D;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 500;
   position: relative;
   top: 0;

@@ -7,10 +7,10 @@ function Home() {
   return (
     <>
       <div id="home" className="home-SCC min-h-screen">
-        <div className="home-section-Rpp bg-cover bg-no-repeat bg-cover bg-center bg-fixed flex items-center w-screen bg-contain">
+        <div className="home-section-Rpp  bg-no-repeat  bg-center bg-fixed flex items-center w-screen bg-contain">
           <div className="auto-group-rk2v-NBe relative h-screen ">
             <img
-              className="rectangle-2-hji absolute w-96.3 h-full fixed bg-contain"
+              className="rectangle-2-hji absolute w-96.3 h-full  bg-contain"
               src="./Home-img/rectangle-2.png"
               alt="Rectangle 2"
             />

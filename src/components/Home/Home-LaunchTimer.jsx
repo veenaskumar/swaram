@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../stylesheet/Home-Counter.css';
+import '../../stylesheet/Home-Counter.css';
 
 const zerofill = (value) => (value < 10 && value > -1 ? '0' : '') + value;
 

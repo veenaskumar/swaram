@@ -1,9 +1,4 @@
 
-body {
-  /* background: #c0c0c0; */
-  margin: 0;
-  padding: 0;
-}
 .mySwiper .card {
   height: fit-content !important; /* Adjust height as needed */
   width: 300px !important;

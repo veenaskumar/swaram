@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheet/Home-type.css'; // Make sure to replace with the correct CSS file name
+import '../../stylesheet/Home-type.css'; // Make sure to replace with the correct CSS file name
 
 const Typewritter = () => {
   return (
