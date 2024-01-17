@@ -9,9 +9,9 @@ import SideWindow from '../components/popup'
 function Main() {
   return (
      
-      <div>
+      <div className='flex flex-col gap-[2.5rem]'>
       <Home />
-      <Sponsers />
+      <Sponsers /><br /><br />
       <About /><br />
       <SideWindow />
       <Gallary />
