@@ -1,11 +1,11 @@
 import React from 'react'
 import Home from '../components/home'
+import Sponsers from '../components/sponsers' 
 import About from '../components/about'
 import Gallary from '../components/gallary'
 import Ourteam from '../components/ourteam'
-import Contact from '../components/contact'
+import Contact from '../components/contact' 
 import SideWindow from '../components/popup'
-import Sponsers from '../components/sponsers'
 function Main() {
   return (
      
@@ -17,7 +17,7 @@ function Main() {
       <Gallary />
       <Ourteam />
       <Contact />
-    </div>
+      </div>
 
   )
 }

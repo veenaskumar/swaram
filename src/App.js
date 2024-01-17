@@ -1,11 +1,14 @@
 import './App.css';
 import Main from './pages/main';
-import Navbar1 from './components/navbar1';
+import { Route,Routes } from 'react-router-dom';
+import Navbar from './components/navbar';
 function App() {
   return (
     <div className="App">
-       <Navbar1 />
+       <Navbar />
        <Main/>
+       
+
     </div>
   );
 }
