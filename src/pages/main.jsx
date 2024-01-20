@@ -2,8 +2,8 @@ import React from 'react'
 import Home from '../components/Home/home'
 import Sponsers from '../components/sponsers' 
 import About from '../components/about'
-import Gallary from '../components/gallary'
 import Ourteam from '../components/ourteam'
+import Quotes from '../components/quotes'
 import Contact from '../components/contact' 
 import SideWindow from '../components/popup'
 function Main() {
@@ -14,8 +14,9 @@ function Main() {
       <Sponsers /><br /><br />
       <About /><br />
       <SideWindow />
-      <Gallary />
-      <Ourteam />
+      {/* <Gallary /> */}
+      {/* <Ourteam /> */}
+      <Quotes />
       <Contact />
       </div>
 

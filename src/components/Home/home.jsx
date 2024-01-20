@@ -21,7 +21,7 @@ function Home() {
             <p className="music-event-qDe absolute ">
             <TypewriterComponent/>
             </p>
-            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-3.5 font-semibold text-white capitalize">
+            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-3.5 font-semibold text-white capitalize" id="type-text">
               Crazy Non stop Music
             </p>
             <div className="details-3ac absolute left-12.4 top-49.1 w-12.7 h-9.8">
@@ -30,8 +30,9 @@ function Home() {
                   className="vector-VhW mr-1.6 w-2.6 h-3.5"
                   src="./Home-img/vector.png"
                   alt="Vector"
+                  
                 />
-                <p className="erode-qFa text-3 ">
+                <p className="erode-qFa text-3 " id="type-text">
                   Erode
                 </p>
               </div>
@@ -41,12 +42,12 @@ function Home() {
                   src="./Home-img/vector-UvQ.png"
                   alt="Vector"
                 />
-                <p className="jan-5-ZDW text-3 font-semibold text-white capitalize">
+                <p className="jan-5-ZDW text-3 font-bold text-white capitalize " id="type-text">
                   JAN 5
                 </p>
               </div>
             </div>
-            <div className="timer-VN4 ">
+            <div className="timer-VN4 pr-[100px] ">
               <LaunchTimer />
             </div>
 

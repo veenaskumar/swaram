@@ -6,7 +6,7 @@ function Sponsers() {
     return (
         <Fade bottom>
             <div className='flex flex-col gap-[2rem]'>
-                <h1 className='font-bold text-[28px] text-center'>Our Sponsers</h1>
+                <h1 className='font-semibold text-[28px] text-center'>Our Sponsers</h1>
                 <Marquee direction="left" speed={100} delay={5} pauseOnHover>
                     <div className='mx-auto flex gap-[2rem] w-[100%]  justify-between '>
                         {

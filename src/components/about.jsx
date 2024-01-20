@@ -4,7 +4,7 @@ function About() {
   return (
     <div id='about' className='md:text-center flex flex-col gap-[1rem] '>
       <Fade top>
-        <h1 className=' font-bold text-[28px]' >About <span className='text-[red]'>SAWARAM</span></h1>
+        <h1 className=' font-semibold text-[28px]' >About <span className='text-[red]'>SWARAM</span></h1>
       </Fade>
       <div className='flex items-center justify-between pl-[50px] pr-[50px]'>
       <Fade left>

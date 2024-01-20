@@ -1,11 +1,12 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
+import '../../stylesheet/home.css'
 
 const TypewriterComponent = () => {
 
   return (
-    <div>
-      <h1 style={{ paddingTop: '2rem',fontSize:'70px', margin: 'auto 0' ,color:'white'}}>
+    <div id='typetext'>
+      <h1 style={{ paddingTop: '2rem',fontSize:'70px', margin: 'auto 0' ,color:'white',fontFamily: 'Outfit'}}>
         Let's{' '}
         <span style={{ color: 'red', fontWeight: 'normal' }}>
           <Typewriter

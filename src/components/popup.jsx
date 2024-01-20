@@ -50,9 +50,9 @@ const SideWindow = () => {
               disableOnInteraction: false, // Allow interaction to stop autoplay
             }}
             coverflowEffect={{
-              rotate: 50,
-              stretch: -100,
-              depth: 500,
+              rotate: 40,
+              stretch: -200,
+              depth: 400,
               modifier: 1,
               slideShadows: true,
               

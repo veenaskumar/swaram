@@ -26,6 +26,7 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    
 }
 
 .header .navbar img {
@@ -39,7 +40,7 @@
 
 .header .nav-item {
     padding: 1rem;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .header .nav-item a:hover {
