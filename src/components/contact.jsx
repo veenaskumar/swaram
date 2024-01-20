@@ -28,11 +28,11 @@ function Contact() {
         </div>
       </section> */}
 
-      <footer>
-        <div className="footer-top">
-          <div className="container">
+      <footer className="flex justify-between ">
+        <div className="footer-top w-[100%] flex flex-col gap-[2rem]">
+          <div className="container  flex justify-between">
             <div className="row gy-5">
-              <div className="col-md-3">
+              <div className="col-md-3 w-[100%]">
                 <h4 className="logo-text text-[red]">veega</h4>
                 <p className="o">The soulful music event of KEC</p>
                 <div className="social-icons">
@@ -47,7 +47,7 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="col-md-2 fl">
+              {/* <div className="col-md-2 fl">
                 <h5 className="title-sm kk text-[red]">Navigation</h5>
                 <div className="footer-links">
                   <a href="#">Home</a>
@@ -55,15 +55,18 @@ function Contact() {
                   <a href="#">Gallery</a>
                   <a href="#">OurTeam</a>
                 </div>
-              </div>
-              <div className="col-md-4 mr-[50px]">
-                <h5 className="title-sm k text-[red]">Contact</h5>
-                <div className="footer-links">
-                  <p className="mb">
-                    Shriram S:
-                  </p>
-                  <p className="mb">9994562922</p>
-                  <p className="mb"><a href="mailto:tharuntharun7248@gmail.com.com">shrirams.20ece@gmail.com</a></p>
+              </div> */}
+              <div className="col-md-6 mr-[50px] flex ">
+                <h5 className="title-sm k text-[red] border w-[100%]">Contact</h5>
+                <div className="footer-links w-[500px] border">
+                  <h4>Staff Coordinator</h4>
+                  <p>Vishnuvardhan K - +91 9791674174</p>
+                  <h4>Student Coordinator</h4>
+                  <p className="mb w-[100%]">Shreeram S</p>
+                  <p className="mb w-[100%]">Shrawin</p>
+                  <p className="mb w-[100%]">Karthik</p>
+                  
+                  {/* <p className="mb"><a href="mailto:tharuntharun7248@gmail.com.com">shrirams.20ece@gmail.com</a></p> */}
                 </div>
               </div>
             </div>

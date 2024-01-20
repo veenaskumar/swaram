@@ -3,10 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
-// import {  } from "react-icons/im";
-// import {  } from "react-icons/im";
-
-
 function Quotes() {
   var settings = {
     dots: true,
