@@ -6,7 +6,7 @@ const TypewriterComponent = () => {
 
   return (
     <div id='typetext'>
-      <h1 style={{ paddingTop: '2rem',fontSize:'70px', margin: 'auto 0' ,color:'white',fontFamily: 'Outfit'}}>
+      <h1 style={{ paddingTop: '2rem',fontSize:'60px', margin: 'auto 0' ,color:'white',fontFamily: 'Outfit'}}>
         Let's{' '}
         <span style={{ color: 'red', fontWeight: 'normal' }}>
           <Typewriter

@@ -174,7 +174,7 @@ input {
     position: absolute;
     left: 11.1rem;
     top: 27.2rem;
-    font-size: 3.5rem;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.365;
     text-transform: capitalize;
@@ -197,14 +197,15 @@ input {
   }
   .home-SCC .home-section-Rpp .auto-group-rk2v-NBe .details-3ac .group-2-aKe .vector-VhW {
     margin-right: 1.6rem;
+    color: red;
     /* width: 2.6rem; */
-    height: 3.5rem;
+    height: 24px;
     object-fit: contain;
     vertical-align: top;
     flex-shrink: 0;
   }
   .home-SCC .home-section-Rpp .auto-group-rk2v-NBe .details-3ac .group-2-aKe .erode-qFa {
-    font-size: 3rem;
+    font-size: 20px;
     font-weight: 550;
     padding-left: 8px;
     /* line-height: 1.365; */
@@ -218,18 +219,19 @@ input {
     margin-right: 0.7rem;
     /* width: calc(100% - 0.7rem); */
     display: flex;
+    /* height: 24px; */
     align-items: center;
   }
   .home-SCC .home-section-Rpp .auto-group-rk2v-NBe .details-3ac .group-1-WFE .vector-esE {
     margin: 0rem 1rem 0.6rem 0rem;
     width: 3.2rem;
-    height: 2.9rem;
+    height: 20px;
     object-fit: contain;
     vertical-align: top;
     flex-shrink: 0;
   }
   .home-SCC .home-section-Rpp .auto-group-rk2v-NBe .details-3ac .group-1-WFE .jan-5-ZDW {
-    font-size: 2.5rem;
+    font-size: 20px;
     padding-left: 10px;
     font-weight: 300;
     line-height: 1.365;

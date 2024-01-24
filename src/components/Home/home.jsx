@@ -21,7 +21,7 @@ function Home() {
             <p className="music-event-qDe absolute ">
             <TypewriterComponent/>
             </p>
-            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-3.5 font-semibold text-white capitalize" id="type-text">
+            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-[20px] font-semibold text-white capitalize" id="type-text">
               Crazy Non stop Music
             </p>
             <div className="details-3ac absolute left-12.4 top-49.1 w-12.7 h-9.8">
@@ -33,7 +33,7 @@ function Home() {
                   
                 />
                 <p className="erode-qFa text-3 " id="type-text">
-                  Erode
+                Kongu Convention Centre
                 </p>
               </div>
               <div className="group-1-WFE flex items-center">
