@@ -26,7 +26,7 @@ const SideWindow = () => {
 
   return (
     
-    <div className="relative w-[300vw]">
+    <div className="relative w-[300vw] z-[1000]">
       <div className="fixed top-1/2 right-4 transform -translate-y-1/2 z-50">
         {/* <button onClick={openPopup} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
           <i className="fas fa-user" />

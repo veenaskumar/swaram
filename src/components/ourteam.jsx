@@ -1,15 +1,15 @@
 import React from 'react'
 import '../stylesheet/ourteam.css';
+import Zoom from 'react-reveal/Zoom'
+import {Link} from 'react-router-dom'
 function Ourteam() {
   return (
-    <div>
-    <div id='ourteam' className='h-[130vh]  bg-black flex justify-center flex-col items-center '>
+    <div className='pt-[30px]'>
+    <div id='ourteam' className='h-[130vh]  bg-black flex justify-center flex-col items-center  '>
       <div className='text-[28px] font-semibold'>Our Team</div>
-        <section id="cards" className='py-[100px]'>
+        <section id="cards" className='py-[30px]'>
             <div class="container">
-                <div class="row">
-                </div>
-                <div class="row gap-y-[2rem]">
+                <div class="row gap-y-[2rem] ">
                     <div class="col-lg-4 col-md-6 mb-[50px] mt-[50px]">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
@@ -103,6 +103,9 @@ function Ourteam() {
                 </div>
             </div>
         </section>
+        <Zoom duration={500} delay={200} className='pt-[-50px]'><button className='bg-[red] w-[120px] text-center py-[10px] rounded-2xl hover:font-semibold'>
+           <Link to='/ourteam' className='decoration-0 text-white hover:no-underline'>Read More</Link> 
+            </button></Zoom>
     </div>
 
     </div>

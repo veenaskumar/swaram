@@ -32,7 +32,7 @@ const Tracker = ({ property, time }) => {
         <b className="flip-card__back" data-value={zerofill(previous)}></b>
         <b className="flip-card__back-bottom" data-value={zerofill(previous)}></b>
       </span>
-      <span className="flip-clock__slot">{property}</span>
+      <span className="flip-clock__slot text-[18px]">{property}</span>
     </span>
 
   );
@@ -102,7 +102,7 @@ const Countdown = ({ date, callback }) => {
   }, [date, callback]);
 
   return (
-    <div className="flip-clock w-92 h-48" data-date={date} onClick={update}>
+    <div className="flip-clock w-92 h-48 " data-date={date} onClick={update} >
   {['Days', 'Hours', 'Minutes', 'Seconds'].map((tracker) => (
     <Tracker key={tracker} property={tracker} time={time} />
   ))}
