@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../images//logo.jpg'
 import '../stylesheet/navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navbar1 = () => {
     const handleSetActive = (to) => {
@@ -47,11 +48,11 @@ const Navbar1 = () => {
                     onSetActive={handleSetActive}>Gallary</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#contact' onClick={closeMenu} spy={true}
+                    <Link to={"/social"} onClick={closeMenu} spy={true}
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    onSetActive={handleSetActive}>Social Activites</a>
+                    onSetActive={handleSetActive}>Social Activites</Link>
                     </li>
                     <li className='nav-item'>
                         <a href='#ourteam' onClick={closeMenu} spy={true}
