@@ -8,6 +8,7 @@ import Quotes from '../components/quotes'
 import Contact from '../components/contact' 
 import SideWindow from '../components/popup'
 import Navbar1 from '../components/navbar1'
+import Our_thoughts from '../components/our_thoughts'
 function Main() {
   return (
      
@@ -16,6 +17,7 @@ function Main() {
       <Home />
       <Sponsers /><br /><br />
       <About /><br />
+      <Our_thoughts />
       <SideWindow />
       <Gallery />
       <Ourteam />
