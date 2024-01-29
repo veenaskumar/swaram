@@ -6,6 +6,7 @@ import Ourteam_page from './pages/ourteam_page';
 import Social_activities from './pages/social_activities';
 import Home from './components/Home/home';
 import About from './components/about';
+// import Gal from './pages/gallary';
 // import { Switch } from 'react-router-dom';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/ourteam' element={<Ourteam_page />} />
         <Route path='/social' element={<Social_activities />} />
         <Route path="/social#about" exact component={About} />
+        {/* <Route path='/Gallary_page' element={<Gal />} /> */}
       </Routes>
   );
 }

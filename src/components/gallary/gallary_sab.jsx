@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheet/Gallery_sab.css'; 
+import '../../stylesheet/Gallery_sab.css'; 
 import Slide from 'react-reveal/Slide';// You can create a CSS file for the styles
 
 const Gallery = () => {
