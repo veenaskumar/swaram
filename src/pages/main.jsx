@@ -17,7 +17,7 @@ function Main() {
        <Home />
       {/* <Sponsers /><br /><br /> */}
       <About /><br />
-      {/* <Our_thoughts /> */}
+      <Our_thoughts />
       {/* <SideWindow /> */}
       {/* <Gallery /> */}
       {/* <Ourteam /> */}
