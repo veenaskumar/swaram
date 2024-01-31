@@ -16,9 +16,9 @@ const Navbar1 = () => {
 
     return (
         <div className='header'>
-            <nav className='navbar sm:flex sm:justify-between border-2 border-green-800'>
+            <nav className='navbar sm:flex sm:justify-between max-w-[1240px]'>
                 <a href='/' className='logo'>
-                    <img src={logo} alt='logo' className='sm:max-w-[100px] sm:max-h-[100px] object-contain'/>
+                    <img src={logo} alt='logo' className='w- object-contain'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)

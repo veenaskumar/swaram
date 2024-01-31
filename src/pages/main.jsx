@@ -12,17 +12,17 @@ import Our_thoughts from '../components/our_thoughts'
 function Main() {
   return (
      
-      <div className='flex flex-col gap-[2.5rem] m-w-[100%]'>
+      <div className='flex flex-col gap-[2.5rem]'>
       <Navbar1 />
-      <Home />
-      <Sponsers /><br /><br />
+       <Home />
+      {/* <Sponsers /><br /><br /> */}
       <About /><br />
-      <Our_thoughts />
-      <SideWindow />
-      <Gallery />
-      <Ourteam />
-      <Quotes />
-      <Contact />
+      {/* <Our_thoughts /> */}
+      {/* <SideWindow /> */}
+      {/* <Gallery /> */}
+      {/* <Ourteam /> */}
+      {/* <Quotes /> */}
+      {/* <Contact />  */}
       </div>
 
   )
