@@ -12,7 +12,7 @@ import Our_thoughts from '../components/our_thoughts'
 function Main() {
   return (
      
-      <div className='flex flex-col gap-[2.5rem]'>
+      <div className='flex flex-col gap-[2.5rem] m-w-[100%]'>
       <Navbar1 />
       <Home />
       <Sponsers /><br /><br />

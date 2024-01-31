@@ -7,7 +7,7 @@ import TypewriterComponent from "./Home-Typewriter";
 function Home() {
   return (
     <>
-      <div id="home" className="home-SCC min-h-screen">
+      <div id="home" className="home-SCC  w-[100%] h-[80vh]">
         <div className="home-section-Rpp bg-fixed">
           <div className="auto-group-rk2v-NBe ">
             <img
@@ -15,10 +15,8 @@ function Home() {
               src="./Home-img/rectangle-2.png"
               alt="Rectangle 2"
             />
-            <div className="border border-gradient p-3 text-white transition duration-300 hover:bg-gradient hover:border-gradient rs">
-              BOOK NOW
-            </div>
-            <p className="music-event-qDe absolute ">
+           
+            <p className="music-event-qDe absolute  ">
             <TypewriterComponent/>
             </p>
             <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-[20px] font-semibold text-white capitalize" id="type-text">
@@ -47,7 +45,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="timer-VN4 pr-[100px] ">
+            <div className="timer-VN4  ">
               <LaunchTimer />
             </div>
 

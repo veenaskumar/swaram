@@ -4,6 +4,8 @@ import "../stylesheet/Contact.css"; // Import your CSS file
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "boxicons/css/boxicons.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Logo from '../images/logo.jpg'
+import { MdEmail } from "react-icons/md";
 
 
 function Contact() {
@@ -20,16 +22,18 @@ function Contact() {
           <div className="container  flex justify-between">
             <div className=" flex justify-around items-center   w-[100%]">
               <div className=" w-[100%]">
-                <h4 className="logo-text text-[red]">veega</h4>
+                <h4 className="logo-text text-[red]">
+                  <img src={Logo} alt="" height={"120px"} width={"120px"} className="object-cover" />
+                </h4><br />
                 <p className="o">The soulful music event of KEC</p>
-                <div className="social-icons">
-                  <a href="#">
+                <div className="social-icons flex items-center gap-[0.5rem]">
+                  <a href="https://www.facebook.com/rcofkec">
                     <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="#">
-                    <i className="bx bxl-twitter"></i>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rotaractclub@kongu.edu">
+                  <div><MdEmail /></div>
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/rotaract_club_of_kec/">
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </div>

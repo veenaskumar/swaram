@@ -16,13 +16,13 @@ const Navbar1 = () => {
 
     return (
         <div className='header'>
-            <nav className='navbar'>
+            <nav className='navbar sm:flex sm:justify-between border-2 border-green-800'>
                 <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
+                    <img src={logo} alt='logo' className='sm:max-w-[100px] sm:max-h-[100px] object-contain'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-                        : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
+                    {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)
+                        : (<FaBars size={25} style={{ color: '#ffffff' }} />)}
 
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>

@@ -5,12 +5,12 @@ import {Link} from 'react-router-dom'
 function Ourteam() {
   return (
     <div className='pt-[30px]'>
-    <div id='ourteam' className='h-[130vh]  bg-black flex justify-center flex-col items-center  '>
+    <div id='ourteam' className='h-[130vh]  bg-black flex justify-center flex-col items-center '>
       <div className='text-[28px] font-semibold'>Our Team</div>
         <section id="cards" className='py-[30px]'>
             <div class="container">
                 <div class="row gap-y-[2rem] ">
-                    <div class="col-lg-4 col-md-6 mb-[50px] mt-[50px]">
+                    <div class="col-lg-4 col-md-6 mb-[50px] mt-[50px] md:w-[100px] md:border lg:border-none">
                         <div class="card shadow-sm border-0">
                             <div class="card-body">
                                 <div class="user-picture">
