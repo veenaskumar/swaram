@@ -9,9 +9,9 @@ function Sponsers() {
             <Fade bottom duration={1200} >
             
                 <div className='flex flex-col gap-[2rem]'>
-                    <h1 className='font-semibold text-[28px] text-center'>Our Sponsers</h1>
-                    <Marquee direction="left" speed={100} delay={5} pauseOnHover>
-                        <div className='mx-auto flex gap-[2rem] w-[100%]  justify-between '>
+                    <h1 className='font-semibold text-[28px] text-center sm:text-[20px]'>Our Sponsers</h1>
+                    <Marquee direction="left" speed={100} delay={5} pauseOnHover className='h-[100px]' >
+                        <div className='mx-auto flex gap-[2rem] w-[100%]  justify-between  '>
                             {
                                 Data.map((item) => {
                                     return (

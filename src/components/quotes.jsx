@@ -5,82 +5,76 @@ import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 function Quotes() {
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 450,
     slidesToShow: 1,
     slidesToScroll: 1,
-    cssEase: "linear",
+    cssEase: "linear", 
     
   };
   return (
     <Zoom>
-    <div className='   text-black  h-[70vh] bg-[#252424] '>
-      <div >
-        <h1 className='text-[28px] font-bold mt-[100px] text-[white] text-center'>What people are saying about the <span className='text-[red]'>SWARAM</span></h1>
-        <Slider {...settings} autoplay={true}>
-        <div className='w-[100%] flex'>
-          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]'>
+    <div className=' text-black bg-[#1f1f20] sm:py-[5%] '>
+      <div>
+        <h1 className='text-[28px] font-semibold mt-[100px] sm:mt-[0rem] sm:px-[20px] text-[white] text-center sm:text-[20px]'>What people are saying about the <span className='text-[red]'>SWARAM</span></h1>
+        <Slider {...settings} autoplay={true} arrows={false}>
+        <div className='w-[100%] flex '>
+          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]  sm:flex sm:flex-col sm:gap-[1rem] '>
           <div className=' flex flex-col items-center gap-[1rem]  '>
               
-              <img src="https://jthemes.net/themes/wp/eleven/wp-content/themes/eleven/assets/img/testimonial/testimonial-2.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
+              <img src="https://jthemes.net/themes/wp/eleven/wp-content/themes/eleven/assets/img/testimonial/testimonial-2.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full sm:w-[60%] ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
               
             <div className='flex flex-col justify-center items-center' >
-              <div className='text-white'>Tharun</div>
-              <div className='text-white'>B-TECH IT</div>
+              <div className='text-white sm:hidden'>Tharun</div>
+              <div className='text-white sm:hidden'>B-TECH IT</div>
             </div>
           </div>
-          <div className='text-[white] text-center'>
+          <div className='text-[white] text-center '>
             
             Every event has a purpose and every setback its lesson. I have realized that failure,<br /> whether of the personal, professional, or even spiritual kind, is essential to personal expansion.
             
           </div>
+          </div>  
           </div>
-            
-          </div>
-          <div className='w-[100%] flex'>
-          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]'>
+          <div className='w-[100%] flex '>
+          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]  sm:flex sm:flex-col sm:gap-[1rem] '>
           <div className=' flex flex-col items-center gap-[1rem]  '>
               
-              <img src="https://jthemes.net/themes/wp/eleven/wp-content/uploads/2023/03/organize.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
+              <img src="https://jthemes.net/themes/wp/eleven/wp-content/themes/eleven/assets/img/testimonial/testimonial-2.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full sm:w-[60%] ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
               
             <div className='flex flex-col justify-center items-center' >
-              <div className='text-white'>Tharun</div>
-              <div className='text-white'>B-TECH IT</div>
+              <div className='text-white sm:hidden'>Tharun</div>
+              <div className='text-white sm:hidden'>B-TECH IT</div>
             </div>
           </div>
-          <div className='text-[white] text-center'>
+          <div className='text-[white] text-center '>
             
             Every event has a purpose and every setback its lesson. I have realized that failure,<br /> whether of the personal, professional, or even spiritual kind, is essential to personal expansion.
             
           </div>
+          </div>  
           </div>
-            
-          </div>
-          <div className='w-[100%] flex'>
-          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]'>
+          <div className='w-[100%] flex '>
+          <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]  sm:flex sm:flex-col sm:gap-[1rem] '>
           <div className=' flex flex-col items-center gap-[1rem]  '>
               
-              <img src="https://jthemes.net/themes/wp/eleven/wp-content/uploads/2023/03/organize.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
+              <img src="https://jthemes.net/themes/wp/eleven/wp-content/themes/eleven/assets/img/testimonial/testimonial-2.jpg" alt="" height={"100px"} width={"100px"} className='rounded-full sm:w-[60%] ' style={{animation: "slideInFromLeft 1s ease-in-out"}}/>
               
             <div className='flex flex-col justify-center items-center' >
-              <div className='text-white'>Tharun</div>
-              <div className='text-white'>B-TECH IT</div>
+              <div className='text-white sm:hidden'>Tharun</div>
+              <div className='text-white sm:hidden'>B-TECH IT</div>
             </div>
           </div>
-          <div className='text-[white] text-center'>
+          <div className='text-[white] text-center '>
             
             Every event has a purpose and every setback its lesson. I have realized that failure,<br /> whether of the personal, professional, or even spiritual kind, is essential to personal expansion.
             
           </div>
+          </div>  
           </div>
-            
-          </div>
-          
-          
         </Slider>
       </div>
-
     </div>
     </Zoom>
   );

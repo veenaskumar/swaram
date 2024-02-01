@@ -4,9 +4,9 @@ import Zoom from 'react-reveal/Zoom'
 import {Link} from 'react-router-dom'
 function Ourteam() {
   return (
-    <div className='pt-[30px]  '>
-    <div id='ourteam' className=' bg-black flex justify-center flex-col items-center '>
-      <div className='text-[28px] font-semibold sm:text-[24px]'>Our Team</div>
+    <div className='pt-[30px] py-[5%] h-[100%] sm:py-[10%] bg-black '>
+    <div id='ourteam' className='  flex justify-center flex-col items-center '>
+      <div className='text-[28px] font-semibold sm:text-[20px]'>Our Team</div>
         <section id="cards" className='py-[30px] sm:py-[15px] sm:px-[5%] '>
             <div class="container  ">
                 <div class="row gap-y-[2rem]  sm:flex sm:gap-[0px]">
@@ -19,8 +19,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -34,8 +32,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -49,8 +45,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -64,8 +58,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -79,8 +71,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -94,8 +84,6 @@ function Ourteam() {
                                 <div class="user-content text-center">
                                     <h2 class="  text-[black] font-[40px] sm:text-[18px] ">Carry Johnshon</h2>
                                     <p class=" text-capitalize text-muted small">Web developer</p>
-                                    
-                                    
                                 </div>
                             </div>
                         </div>
@@ -107,7 +95,6 @@ function Ourteam() {
            <Link to='/ourteam' className='decoration-0 text-white hover:no-underline'>Read More</Link> 
             </button></Zoom>
     </div>
-
     </div>
   )
 }

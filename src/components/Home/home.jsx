@@ -7,22 +7,23 @@ import TypewriterComponent from "./Home-Typewriter";
 function Home() {
   return (
     <>
-      <div id="home" className="home-SCC  w-[100%] h-[80vh]">
-        <div className="home-section-Rpp bg-fixed">
-          <div className="auto-group-rk2v-NBe ">
+      <div id="home" className="home-SCC  w-[100%] h-[80vh] ">
+        <div className="home-section-Rpp bg-fixed  ">
+          <div className="auto-group-rk2v-NBe  ">
             <img
-              className="rectangle-2-hji "
+              className="rectangle-2-hji sm:hidden"
               src="./Home-img/rectangle-2.png"
               alt="Rectangle 2"
+              
             />
            
-            <p className="music-event-qDe absolute  ">
+            <p className="music-event-qDe absolute">
             <TypewriterComponent/>
             </p>
-            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-[20px] font-semibold text-white capitalize" id="type-text">
+            <p className="crazy-non-stop-music-jpp absolute left-11.1 top-27.2 w-35.8 h-4.8 text-[20px] font-semibold text-white capitalize " id="type-text">
               Crazy Non stop Music
             </p>
-            <div className="details-3ac absolute left-12.4 top-49.1 w-12.7 h-9.8">
+            <div className="details-3ac absolute left-12.4 top-49.1 w-12.7 h-9.8  sm:w-[100%]">
               <div className="group-2-aKe flex items-center mb-1.6">
                 <img
                   className="vector-VhW mr-1.6 w-2.6 h-3.5"

@@ -5,10 +5,10 @@ import '../../stylesheet/home.css'
 const TypewriterComponent = () => {
 
   return (
-    <div id='typetext'>
+    <div id='typetext' >
       <h1 style={{ paddingTop: '2rem',fontSize:'60px', margin: 'auto 0' ,color:'white',fontFamily: 'Outfit'}}>
-        Let's{' '}
-        <span style={{ color: 'red', fontWeight: 'normal' }}>
+        <span className='sm:text-[35px] '>Let's{' '}</span>
+        <span style={{ color: 'red', fontWeight: 'normal' }} className='sm:text-[35px] '>
           <Typewriter
             words={['Sing', 'Dance', 'Vibe', 'Repeat!']}
             loop="false"

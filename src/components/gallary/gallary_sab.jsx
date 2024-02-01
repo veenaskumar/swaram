@@ -4,10 +4,10 @@ import Slide from 'react-reveal/Slide';// You can create a CSS file for the styl
 
 const Gallery = () => {
   return (
-    <Slide bottom className='w-[100%]'>
-    <div id='gallary' className='h-[100vh] flex items-center flex-col gap-[3rem] sm:min-w-[100%] '>
-      <div className='text-[28px] font-bold text-[red] text-center'>Gallary</div>
-    <div className="gallery px-[40px] ">
+    <Slide bottom className='w-[100%] '>
+    <div id='gallary' className=' flex items-center flex-col gap-[3rem] sm:h-[60vh] sm:mx-[40px] mx-[40px]'>
+      <div className='text-[28px] font-semibold text-[red] text-center sm:text-[20px]'>Gallary</div>
+    <div className="gallery mx-[60px] sm:mx-[60px] ">
       <div className="gallery_line">
         <img src="https://picsum.photos/300/200?random=0" alt="Gallery Image"/>
         <img src="https://picsum.photos/200/300?random=1" alt="Gallery Image"/>
