@@ -15,14 +15,14 @@ function Main() {
       <div className='flex flex-col gap-[2.5rem]'>
       <Navbar1 />
        <Home />
-      <Sponsers /><br /><br />
+      {/* <Sponsers /><br /><br /> */}
       <About /><br />
       <Our_thoughts />
-      <SideWindow />
+      {/* <SideWindow /> */}
       <Gallery />
       <Ourteam />
-      <Quotes />
-      <Contact /> 
+      {/* <Quotes /> */}
+      {/* <Contact />  */}
       </div>
 
   )
