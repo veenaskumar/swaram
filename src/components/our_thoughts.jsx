@@ -7,7 +7,7 @@ function Our_thoughts() {
                 <div>
                     <h1 className='text-[red] text-center font-semibold sm:text-[20px] '>Our Thoughts</h1>
                 </div><br /><br />
-                <div class="row gap-[7rem]  justify-around items-center sm:w-[100%] sm:px-[10%]">
+                <div class="row gap-[7rem]  justify-around items-center sm:w-[100%] w-[100%] sm:px-[10%]">
                     <div class="rounded-xl bg-white p-6 text-center sm:w-[350px] shadow-xl w-[500px] sm:px-0">
                         <div
                             class="mx-auto flex h-[100px] w-[100px] -translate-y-12 transform items-center justify-center rounded-full bg-teal-400 shadow-lg shadow-teal-500/40 sm:h-[70px] sm:w-[70px]">

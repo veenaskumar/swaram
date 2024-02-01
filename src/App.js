@@ -15,8 +15,6 @@ function App() {
         <Route path='/' exact element={<Main />} />
         <Route path='/ourteam' element={<Ourteam_page />} />
         <Route path='/social' element={<Social_activities />} />
-        {/* <Route path="/social#about" exact component={About} /> */}
-        {/* <Route path='/Gallary_page' element={<Gal />} /> */}
       </Routes>
       </BrowserRouter>
   );
