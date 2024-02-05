@@ -1,39 +1,78 @@
-import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import logo from '../images//logo.jpg'
+import '../stylesheet/navbar.css'
+import { Link } from 'react-router-dom'
 
-function Navbar() {
-  const handleSetActive = (to) => {
-    console.log(to);
-  };
+const Navbar1 = () => {
+    const handleSetActive = (to) => {
+        console.log(to);
+      };
 
-  return (
-    <nav className="bg-white shadow-lg fixed w-full z-10">
-      <div className="container mx-auto flex justify-between items-center p-4">
-        <div className="text-6xl font-bold">
-          <Link to='#home' spy={true} smooth={true} offset={-100} duration={500} onSetActive={handleSetActive} className="text-gray-900">
-            Swaram
-          </Link>
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
+    const closeMenu = () => setClick(false)
+
+    return (
+        <div className='header'>
+            <nav className='navbar sm:flex sm:justify-between max-w-[1240px]'>
+                <a href='/' className='logo'>
+                    <img src={logo} alt='logo' className='w- object-contain'/>
+                </a>
+                <div className='hamburger' onClick={handleClick}>
+                    {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)
+                        : (<FaBars size={25} style={{ color: '#ffffff' }} />)}
+
+                </div>
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <li className='nav-item '>
+                        <a href='/' onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Home</a>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to={'/sponsers'} onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-200}
+                    duration={500}
+                    onSetActive={handleSetActive}>Sponsers</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to={'/gallary'} onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Gallary</Link>
+                    </li>
+                    <li className='nav-item'>
+                    <Link to={"/social"} onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Social Activites</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to={'/ourteam'} onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Our Team</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#contact' onClick={closeMenu} spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onSetActive={handleSetActive}>Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
-        <div className="text-4xl   justify-between flex space-x-9">
-          <Link to='#home' spy={true} smooth={true} offset={-100} duration={500} onSetActive={handleSetActive} className="nav-link font-med">
-            Home
-          </Link>
-          <Link to='#about' spy={true} smooth={true} offset={-100} duration={500} onSetActive={handleSetActive} className="nav-link">
-            About
-          </Link>
-          <Link to='#gallery' spy={true} smooth={true} offset={-100} duration={500} onSetActive={handleSetActive} className="nav-link">
-            Gallery
-          </Link>
-          <Link to='#ourteam' spy={true} smooth={true} offset={-150} duration={500} onSetActive={handleSetActive} className="nav-link">
-            Our Team
-          </Link>
-          <Link to='#contact' spy={true} smooth={true} offset={-150} duration={500} onSetActive={handleSetActive} className="nav-link">
-            Contact
-          </Link>
-        </div>
-      </div>
-    </nav>
-  );
+    )
 }
 
-export default Navbar;
+export default Navbar1

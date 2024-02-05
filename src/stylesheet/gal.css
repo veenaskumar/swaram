@@ -1,33 +1,61 @@
 
+.mySwipe .card {
+  height: fit-content !important; /* Adjust height as needed */
+  width: 300px !important;
+   /* Adjust width as needed */
+}
+.swiper{
+  height: 300px !important;
+  width: 900px  !important;
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important;
+  margin-top: 15px; 
+  /* display: none; */
+  /* background-color: white; */
+}
+/* Optional: Adjust spacing between cards further */
+.mySwipe .swiper-slide-prev {
+  margin-right: 10px;
+}
+.mySwipe{
+  min-height: 100vh;
+}
+.mySwipe .swiper-slide-next {
+  margin-left: 10px;
+}
+.close-pop-up{
+  margin-left: 900px !important;
+}
+.close-pop-up:hover{
+  /* border: 1px solid black; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  color: black;
+}
+.swiper {
+  width: 100%;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
   
-  .swiper {margin-top: 8vh;
-    min-width: 95%;
-    min-height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    opacity: 0.8;
-    border-radius: 15px;
-    background: #fff;
-    margin-top: 10px;
-    height: calc((70% - 30px) / 2) !important;
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .swiper-slide img{
-    border-radius:inherit ;
-  }
-  .swiper-slide:hover{
-    opacity: 1;
-    background-color: beige;
-    transform: scale(0.9); 
-    transition: transform 0.5s ease-in-out;
-  }
-  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e45454 !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  display: none;
+
+}
+

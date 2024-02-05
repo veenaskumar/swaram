@@ -1,9 +1,10 @@
-import Navbar1 from '../components/navbar1'
+import Navbar1 from "../components/navbar.jsx";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { TiTick } from "react-icons/ti";
 import Contact from '../components/contact';
 import { Zoom,Fade } from 'react-reveal';
+import NavbarSocial from "../components/NavbarSocial.jsx";
 
 function Social_activities() {
   const sliderRef = useRef(null);
@@ -31,7 +32,8 @@ function Social_activities() {
 
   return (
     <div className='min-h-[100%] pt-[90px] flex flex-col gap-[5rem] sm:gap-0 bg-[#252424]'>
-      <Navbar1 />
+      {/* <NavbarSocial /> */}
+      <Navbar1/>
       <div  >
         <Slider ref={sliderRef} {...settings} arrows={false} className='min-h-[50vh]  ' >
           <div className='relative sm:min-w-[100%] sm:m-0 sm:p-0'>

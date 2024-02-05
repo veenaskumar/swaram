@@ -7,14 +7,14 @@ import Ourteam from '../components/ourteam'
 import Quotes from '../components/quotes'
 import Contact from '../components/contact' 
 import SideWindow from '../components/popup'
-import Navbar1 from '../components/navbar1'
+import Navbar1 from '../components/navbar'
 import Our_thoughts from '../components/our_thoughts'
 function Main() {
   return (
      
       <div className='flex flex-col gap-[2.5rem]'>
       <Navbar1 />
-      <SideWindow />
+      {/* <SideWindow /> */}
        <Home />
       <Sponsers /><br /><br />
       <About /><br />

@@ -1,22 +1,24 @@
 // import './stylesheet/home.css';
 import Main from './pages/main';
-import { BrowserRouter, Route,Routes } from 'react-router-dom';
-import Navbar1 from './components/navbar1';
+import { BrowserRouter, Route,Routes, useLocation } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import Navbar1 from './components/navbar';
 import Ourteam_page from './pages/ourteam_page';
 import Social_activities from './pages/social_activities';
 import Home from './components/Home/home';
 import About from './components/about';
-// import Gal from './pages/gallary';
-// import { Switch } from 'react-router-dom';
+import Gal from './pages/gallary';
+import React from 'react';
 function App() {
+  const location=useLocation();
+  console.log(location.pathname);
   return (
-    <BrowserRouter basename='/'>
       <Routes>
-        <Route path='/' exact element={<Main />} />
+        <Route path='/'  element={<Main /> } />
         <Route path='/ourteam' element={<Ourteam_page />} />
         <Route path='/social' element={<Social_activities />} />
+        <Route path='/gallary' element={<Gal />}/>
       </Routes>
-      </BrowserRouter>
   );
 }
 
