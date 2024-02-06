@@ -102,9 +102,9 @@ const Countdown = ({ date, callback }) => {
   }, [date, callback]);
 
   return (
-    <div className="flip-clock w-92 h-48 " data-date={date} onClick={update} >
+    <div className="flip-clock md:w-92 md:h-48  sm:left-0 sm:h-[100px] md:flex md:ml-[15%]  md:w-[100%] sm:w-[100%] sm:flex sm:justify-center sm:gap-[3rem] sm:items-center" data-date={date} onClick={update} >
   {['Days', 'Hours', 'Minutes', 'Seconds'].map((tracker) => (
-    <Tracker key={tracker} property={tracker} time={time} />
+    <Tracker key={tracker} property={tracker} time={time} className='border' />
   ))}
 </div>
 

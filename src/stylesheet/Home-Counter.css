@@ -19,7 +19,7 @@
   
   .flip-clock__slot {
     color: #FFF;
-    font-size: 4rem;
+    /* font-size: 4rem; */
     line-height: 1.5;
     display: block;
   }

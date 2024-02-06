@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import { TiTick } from "react-icons/ti";
 import Contact from '../components/contact';
 import { Zoom,Fade } from 'react-reveal';
-import NavbarSocial from "../components/NavbarSocial.jsx";
 
 function Social_activities() {
   const sliderRef = useRef(null);
@@ -32,7 +31,6 @@ function Social_activities() {
 
   return (
     <div className='min-h-[100%] pt-[90px] flex flex-col gap-[5rem] sm:gap-0 bg-[#252424]'>
-      {/* <NavbarSocial /> */}
       <Navbar1/>
       <div  >
         <Slider ref={sliderRef} {...settings} arrows={false} className='min-h-[50vh]  ' >
