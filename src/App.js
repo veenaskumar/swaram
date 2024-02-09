@@ -7,6 +7,7 @@ import Ourteam_page from './pages/ourteam_page';
 import Social_activities from './pages/social_activities';
 import Home from './components/Home/home';
 import About from './components/about';
+import Sponser from './pages/sponser';
 import Gal from './pages/gallary';
 import React from 'react';
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/ourteam' element={<Ourteam_page />} />
         <Route path='/social' element={<Social_activities />} />
         <Route path='/gallary' element={<Gal />}/>
+        <Route path='/sponsers' element={<Sponser />}/>
       </Routes>
   );
 }
