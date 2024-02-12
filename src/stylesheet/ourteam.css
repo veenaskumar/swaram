@@ -26,7 +26,8 @@
 #cards .card .user-picture img {
     position: absolute;
     top: -40%;
-    right: 10%;
+    left: 30%;
+    /* right: %; */
     background: red!important;
     padding: 10px;
 }

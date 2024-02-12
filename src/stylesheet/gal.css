@@ -14,6 +14,18 @@
   /* display: none; */
   /* background-color: white; */
 }
+#gallary_page_background{
+  background-image: url('../assets/swaram_videos/logos/swaram_original_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center ;
+  background-size: 35%;
+  /* border: 1px solid red; */
+  background-position-y: 130px;
+  filter: brightness(80%);
+
+  
+}
 /* Optional: Adjust spacing between cards further */
 .mySwipe .swiper-slide-prev {
   margin-right: 10px;

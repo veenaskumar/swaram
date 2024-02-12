@@ -44,7 +44,7 @@
   flex-direction: column;
   gap: 1vw;
   height: fit-content;
-  animation: slide 20s linear infinite;
+  animation: slide 10s linear infinite;
 }
 
 .gallery_line:nth-child(2) {

@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../images//logo.jpg'
 import '../stylesheet/navbar.css'
 import { Link } from 'react-router-dom'
+import Logo1 from '../assets/swaram_videos/logos/rotaract logo grey.png'
 
 const Navbar1 = () => {
     const handleSetActive = (to) => {
@@ -17,8 +18,9 @@ const Navbar1 = () => {
     return (
         <div className='header'>
             <nav className='navbar sm:flex sm:justify-between max-w-[1240px]'>
-                <a href='/' className='logo'>
-                    <img src={logo} alt='logo' className='w- object-contain'/>
+                <a href='/' className='logo flex gap-[3rem]'>
+                    <img src={Logo1} alt='logo' className='w- object-contain'/>
+                    <img src={logo} alt="" className='w- object-contain'/>
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)

@@ -11,8 +11,7 @@ import Sponser from './pages/sponser';
 import Gal from './pages/gallary';
 import React from 'react';
 function App() {
-  const location=useLocation();
-  console.log(location.pathname);
+
   return (
       <Routes>
         <Route path='/'  element={<Main /> } />

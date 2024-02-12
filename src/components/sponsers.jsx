@@ -3,6 +3,7 @@ import Data from '../json/sponser.js'
 import Marquee from 'react-fast-marquee';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import { Link } from 'react-router-dom';
 function Sponsers() {
     return (
         <div className='flex flex-col gap-[3rem] justify-center items-center'>
@@ -25,7 +26,9 @@ function Sponsers() {
                 </div>
            
         </Fade>
-          <Zoom duration={500} delay={200}>  <button className='bg-[red] w-[120px] text-center py-[10px] rounded-2xl hover:font-semibold'>Read More</button></Zoom>
+          <Zoom duration={500} delay={200}> <Link to={"/sponsers"}> <button className='bg-[red] w-[120px] text-center py-[10px] rounded-2xl hover:font-semibold'>
+            Read More 
+            </button></Link> </Zoom>
         </div>
     )
 }

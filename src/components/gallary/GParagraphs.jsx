@@ -23,7 +23,7 @@ const Paragraphs = ({ selectedYear }) => {
   }
   return (
     <div>
-      <div className='flex text-5xl font-mono text-[white] justify-center font-semibold mt-[50px] mb-[30px]'> What Guest's say About <div className='text-[red]'>Swaram</div></div>
+      <div className='flex text-5xl  text-[white] justify-center font-bold mt-[50px] mb-[30px]'> What Guest's say About <span className='text-[red] pl-[10px]'>Swaram</span></div>
     <div className='grid grid-cols-2 md:grid-cols-3 gap-4 pl-100  justify-evenly'>
       {a.map((item) => (
         <Fade key={item.id} duration={3500} transition="ease-in-out">

@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar1 from '../components/navbar'
 import Contact from '../components/contact'
+import '../stylesheet/gal.css'
 function Sponser() {
   return (
-    <div className='w-[100% ] flex flex-col gap-[2rem]'>
+    <div className='w-[100% ] flex flex-col gap-[2rem]' id='gallary_page_background'>
       <Navbar1 />
       <div className='mt-[100px] flex flex-col gap-[5rem] px-[7%] '>
         <div className='flex items-center justify-center flex-col gap-[2rem] '>
