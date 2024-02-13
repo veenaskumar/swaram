@@ -44,7 +44,7 @@
   flex-direction: column;
   gap: 1vw;
   height: fit-content;
-  animation: slide 10s linear infinite;
+  animation: slide 20s linear infinite;
 }
 
 .gallery_line:nth-child(2) {
@@ -59,7 +59,7 @@
 
 .gallery_line img {
   flex: 1 1 auto;
-  width: 100%;
+  min-width: 100%;
   object-fit: cover;
 }
 
