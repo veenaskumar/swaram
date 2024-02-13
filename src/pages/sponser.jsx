@@ -4,8 +4,9 @@ import Contact from '../components/contact'
 import '../stylesheet/gal.css'
 function Sponser() {
   return (
+    <>
+    <Navbar1 className='fixed' />
     <div className='w-[100% ] flex flex-col gap-[2rem]' id='gallary_page_background'>
-      <Navbar1 />
       <div className='mt-[100px] flex flex-col gap-[5rem] px-[7%] '>
         <div className='flex items-center justify-center flex-col gap-[2rem] '>
           <h1 className='text-[red]'>Sponser</h1>
@@ -39,6 +40,7 @@ function Sponser() {
       </div>
       <Contact />
     </div>
+    </>
   )
 }
 

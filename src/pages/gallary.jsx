@@ -4,6 +4,7 @@ import GCarsol from '../components/gallary/GCarousel'
 import Navbar1 from '../components/navbar';
 import '../stylesheet/gal.css'
 import LBackground from '../assets/swaram_videos/logos/swaram_original_background.png'
+import Contact from '../components/contact';
 function Gal() {
   const [selectedYear, setSelectedYear] = useState('G2k17'); // Initial selected year state
 
@@ -12,8 +13,9 @@ function Gal() {
     alert(year)
   };
   return (
-    <div className='flex flex-col gap-[2rem] ' id='gallary_page_background'>
+    <>
     <Navbar1 />
+    <div className='flex flex-col gap-[2rem] ' id='gallary_page_background'>
     <div className='pt-[7%]'>
     <div className='flex flex-col justify-evenly items-center min-h-screen w-[100%] mt-[30px]'>
      {/* <div className='text-6xl font-mono text-[red] mb-[30px] font-semibold'>A Throw Back</div>  */}
@@ -31,6 +33,8 @@ function Gal() {
   </div>
   </div>
   </div>
+  <Contact />
+  </>
   
   )
 }

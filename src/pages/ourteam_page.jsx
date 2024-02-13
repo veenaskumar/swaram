@@ -7,8 +7,8 @@ import '../stylesheet/gal.css'
 function Ourteam_page() {
   return (
     <>
+      <Navbar1 />
       <div className=' ' id='gallary_page_background'>
-        <Navbar1 />
         <div className='pt-[80px]'>
           <div className='pt-[30px]'>
             <div id='ourteam' className=' flex justify-center flex-col items-center  '>
