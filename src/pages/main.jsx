@@ -9,7 +9,7 @@ import Contact from '../components/contact'
 import SideWindow from '../components/popup'
 import Navbar1 from '../components/navbar'
 import Our_thoughts from '../components/our_thoughts'
-// import Example from '../components/guest/example'
+import Example from '../components/guest/example'
 function Main() {
   return (
      
@@ -22,7 +22,7 @@ function Main() {
       <Our_thoughts />
       <Gallery />
       <Ourteam />
-      {/* <Example /> */}
+      <Example />
       <Quotes />
       <Contact /> 
       </div>

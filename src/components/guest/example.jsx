@@ -54,7 +54,7 @@ export default class Example extends Component {
   render() {
     return (
       <div
-        className="container sm:w-[100%]  "
+        className="contain sm:w-[100%]  "
       >
         <div className="ml-[100px] mt-[30px] mb-[70px] text-6xl text-white-400 sm:text-[20px] sm:mx-[5%] text-wrap   sm:text-center">Ready to know about the <span className="text-red-500">GUEST</span></div>
         <VerticalCarousel

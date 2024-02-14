@@ -1,4 +1,4 @@
-.container{
+.contain{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -19,7 +19,7 @@
         width: 100vw;
         margin-left: -100px;
     }
-    .container {
+    .contain {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
