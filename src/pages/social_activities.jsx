@@ -85,9 +85,9 @@ function Social_activities() {
               <img src="https://rotaract.kongu.edu/images/2k17.png" alt="" className='w-[400px] rounded-2xl ' />
             </div>
             <div>
-              <ul className="w-[80%] text-wrap">
+              <ul className="">
                 {/** 2018 */}
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated <span className="text-[red] font-semibold">COLPOSCOPY DEVICE</span> for Cancer Treatment at IRTT Hospital,Perundurai worth 2 Lakhs</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]' /><div>Donated <span className="text-[red] font-semibold">COLPOSCOPY DEVICE</span> for Cancer Treatment at IRTT Hospital,<br/>Perundurai worth 2 Lakhs</div></li>
                 <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplongs for the pubic</li>
                 <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]'/>Donated Text books to government schools all over Erode and Perundurai</li>
               </ul>
@@ -95,17 +95,17 @@ function Social_activities() {
           </div>
           </Fade>
           <Fade duration={1000} delay={200} left>
-          <div className='flex justify-around items-center sm:flex-col sm:gap-[1rem] sm:text-[14px] '>
+          <div className='flex justify-around items-center sm:flex-col sm:gap-[1rem]  sm:text-[14px]   '>
             <div>
               <img src="https://rotaract.kongu.edu/images/2k18.png" alt="" className='w-[400px] rounded-2xl' />
             </div>
             <div>
               <ul >
                 {/** 2017 */}
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated Roof top fans to Old Age homes</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated basic needs to orphanages</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]'/>Donated Text books to government schools all over Erode and Perundurai</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings for environment awareness.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Conducted organ donation awareness camp.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Vastara Dhanam to orphanages.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated 2.5 lakhs for nearly 15 Government Schools in & <br /> around Perundurai to satisfy their basic need</li>
               </ul>
             </div>
           </div>
@@ -119,9 +119,10 @@ function Social_activities() {
               <ul >
                 {/** 2016 */}
                 <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated Roof top fans to Old Age homes</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated basic needs to orphanages</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]'/>Donated Text books to government schools all over Erode and Perundurai</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Conducted Free Eye Camp bebefits needy</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Vasthra Dhanam to Orphanages</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Created Public Awareness atOrgan Donation</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated 2.55 Lakhs for Open Heart Surgery to NGO's</li>
               </ul>
             </div>
           </div>
@@ -134,10 +135,12 @@ function Social_activities() {
             <div>
               <ul >
                 {/** 2015 */}
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated Roof top fans to Old Age homes</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated basic needs to orphanages</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]' />Donated Text books to government schools all over Erode and Perundurai</li>
+                <li className='flex items-center  gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Provided RO water purifiers to Schools.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' />  Contributed motors to old age homes.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red'  />Donated basic needs to Idhayam Trust, Erode.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red'  />Eye Camp has been held to the benefit of needy.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red'  />Installed UPS in Government Schools.</li>
               </ul>
             </div>
           </div>
@@ -150,26 +153,26 @@ function Social_activities() {
             <div>
               <ul >
                 {/** 2014 */}
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated Roof top fans to Old Age homes</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated basic needs to orphanages</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]' />Donated Text books to government schools all over Erode and Perundurai</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]'/>Improving facilities in Government School to be on par with private schools, <br />setting up RO water purifiers and improving sanitation facilities and setting up libraries.</li>
+                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[50px]'/>To uplift the living standards of rag-pickers community and to help them to get their basic essentials.</li>
               </ul>
             </div>
           </div>
           </Fade>
           <Fade duration={1000} delay={200} left>
-          <div className='flex justify-around items-center sm:flex-col sm:gap-[1rem] sm:text-[14px] '>
+          <div className='flex justify-around items-center sm:flex-col sm:gap-[1rem] sm:text-[12px] sm:justify-start sm:items-start '>
             <div>
               <img src="https://rotaract.kongu.edu/images/2k20-2.jpg" alt="" className='w-[400px] rounded-2xl' />
             </div>
             <div>
               <ul >
                 {/** 2013 */}
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Distributed 1000 tree saplings</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated Roof top fans to Old Age homes</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' />Donated basic needs to orphanages</li>
-                <li className='flex items-center gap-3'><TiTick size={25} color='red' className='sm:size-[40px]' />Donated Text books to government schools all over Erode and Perundurai</li>
+                <li className='flex items-center gap-3 sm:w-[90%] '><TiTick size={25} color='red' className='sm:size-[40px]' />Government Schools in and around Erode were provided with utensils,<br /> water tanks, sports articles and computer accessories.</li>
+                <li className='flex items-center gap-3 sm:w-[90%] '><TiTick size={25} color='red'className='sm:size-[40px]' />
+Erode Arima Trust School was provided supporting accessories for physically<br /> challenged people.
+</li>
+                <li className='flex items-center gap-3 sm:w-[90%] '><TiTick size={25} color='red'className='sm:size-[40px]' />WJ Welfare Trust, Perundurai was provided with mats, pillow and bed.</li>
+                <li className='flex items-center gap-3 sm:w-[90%]'><TiTick size={25} color='red' className='sm:size-[40px]'  />Donated Text books to government schools all over Erode and Perundurai</li>
               </ul>
             </div>
           </div>
@@ -183,3 +186,4 @@ function Social_activities() {
 }
 
 export default Social_activities
+
