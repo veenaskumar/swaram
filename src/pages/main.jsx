@@ -9,18 +9,20 @@ import Contact from '../components/contact'
 import SideWindow from '../components/popup'
 import Navbar1 from '../components/navbar'
 import Our_thoughts from '../components/our_thoughts'
+// import Example from '../components/guest/example'
 function Main() {
   return (
      
-      <div className='flex flex-col gap-[2.5rem]'>
+      <div className='flex flex-col gap-[2rem]'>
       <Navbar1 />
       {/* <SideWindow /> */}
        <Home />
-      <Sponsers /><br /><br />
+      <Sponsers />
       <About /><br />
       <Our_thoughts />
       <Gallery />
-      <Ourteam /><br />
+      <Ourteam />
+      {/* <Example /> */}
       <Quotes />
       <Contact /> 
       </div>

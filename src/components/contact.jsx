@@ -10,11 +10,11 @@ import { MdEmail } from "react-icons/md";
 
 function Contact() {
   return (
-    <div id="contact" className="h-auto top-0  ">
+    <div id="contact" className=" top-0  w-[100% ]  ">
       <footer className="flex justify-between  ">
-        <div className="footer-top w-[100%] flex flex-col gap-[2rem] sm:gap-[1rem]  ">
+        <div className="footer-top w-[100%] flex flex-col gap-[2rem] sm:gap-[1rem] pt-[0] sm:h-[350px] ">
           <div className="container  flex justify-between sm:mt-[-50px] ">
-            <div className=" flex justify-around items-center   w-[100%]  sm:flex sm:flex-col-reverse sm:gap-[1rem]">
+            <div className=" flex justify-around px-[5%] items-center   w-[100%]  sm:flex sm:flex-col-reverse sm:gap-[1rem]">
               <div className=" w-[100%]  sm:flex sm:items-center sm:justify-between">
                 <h4 className="logo-text text-[red]">
                   <img src={Logo} alt="" height={"120px"} width={"120px"} className="object-cover sm:w-[80px]" />

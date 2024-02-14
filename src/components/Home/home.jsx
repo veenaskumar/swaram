@@ -6,10 +6,10 @@ import TypewriterComponent from "./Home-Typewriter";
 
 function Home() {
   return (
-    <div>
-      <div id="home" className="home-SCC  w-[100%] h-[80vh]  sm:h-[10vh] ">
+    <div >
+      <div id="home" className="home-SCC  w-[100%] h-[100vh] sm:h-[80vh] ">
         <div className="home-section-Rpp bg-fixed  w-[100%] ">
-          <div className="auto-group-rk2v-NBe  w-[100%]  ">
+          <div className="auto-group-rk2v-NBe  w-[100%] sm:h-[10px] sm:border  ">
             <img
               className="rectangle-2-hji sm:hidden"
               src="./Home-img/rectangle-2.png"

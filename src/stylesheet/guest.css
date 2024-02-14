@@ -1,0 +1,33 @@
+.container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      /* width: 10vw; */
+      min-width: 100vw;
+      height: 87vh;
+      margin: -20px auto;
+      /* background: black; */
+      overflow: hidden;
+    }
+    .im{
+        width: 45vw;
+        border-radius: 30px;
+      }
+@media (max-width: 600px) {
+    .im{
+        width: 100vw;
+        margin-left: -100px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        height: 87vh;
+        margin: -10px auto;
+        background: black;
+        overflow: hidden;
+    }
+  }

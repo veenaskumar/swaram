@@ -16,7 +16,7 @@ const Navbar1 = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <div className='header'>
+        <div className='header z-[1000]'>
             <nav className='navbar sm:flex sm:justify-between max-w-[1240px]'>
                 <a href='/' className='logo flex gap-[3rem]'>
                     <img src={Logo1} alt='logo' className='w- object-contain'/>

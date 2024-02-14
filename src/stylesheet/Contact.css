@@ -1,8 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap'); */
 .footer-top{
     background-color: #000;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    /* padding-top: ; */
+    /* padding-bottom: 30px; */
+    height: 350px;
+    
 }
 .footer-links p{
     font-size: 20px;
