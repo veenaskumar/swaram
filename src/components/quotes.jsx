@@ -7,7 +7,7 @@ function Quotes() {
   var settings = {
     // dots: true,
     infinite: true,
-    speed: 450,
+    speed: 550,
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear", 
@@ -17,7 +17,7 @@ function Quotes() {
     <Zoom>
     <div className=' text-black bg-[#1f1f20] sm:py-[5%] '>
       <div>
-        <h1 className='text-[28px] font-semibold mt-[100px] sm:mt-[0rem] sm:px-[20px] text-[white] text-center sm:text-[20px]'>What people are saying about the <span className='text-[red]'>SWARAM</span></h1>
+        <h1 className='text-[28px] font-semibold mt-[100px] sm:mt-[0rem] sm:px-[20px] text-[white] text-center sm:text-[20px]'>The Voice of the <span className='text-[red]'> Crowd</span></h1>
         <Slider {...settings} autoplay={true} arrows={false}>
         <div className='w-[100%] flex '>
           <div className=' flex items-center justify-center gap-[3rem]  mt-[50px]  sm:flex sm:flex-col sm:gap-[1rem] '>

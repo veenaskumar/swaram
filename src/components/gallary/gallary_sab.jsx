@@ -9,7 +9,7 @@ const Gallery = () => {
     <div className='flex flex-col justify-center items-center gap-[2rem] w-[100%] '>
     <Slide bottom className='w-[100%] sm:w-[100%]'>
     <div id='gallary' className=' flex items-center flex-col gap-[3rem] sm:h-[60vh] sm:mx-[40px] mx-[40px] sm:w-[100%] '>
-      <div className='text-[28px] font-semibold text-[red] text-center sm:text-[20px]'>Gallary</div>
+      <div className='text-[28px] font-semibold text-[white] text-center sm:text-[20px]'>The Muse of this <span className='text-[red]'>Musical day</span></div>
     <div className="gallery mx-[60px] sm:mx-[60px] ">
       <div className="gallery_line">
         {

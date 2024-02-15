@@ -6,7 +6,7 @@ function Ourteam() {
   return (
     <div className='pt-[30px] py-[5%] h-[100%] sm:py-[10%] bg-black '>
     <div id='ourteam' className='  flex justify-center flex-col items-center '>
-      <div className='text-[28px] font-semibold sm:text-[20px]'>Our Team</div>
+      <div className='text-[28px] font-semibold sm:text-[20px]'>Our <span className='text-[red]'>Team</span></div>
         <section id="cards" className='py-[30px] sm:py-[15px] sm:px-[5%] '>
             <div class="container  ">
                 <div class="row gap-y-[2rem]  sm:flex sm:gap-[0px]">

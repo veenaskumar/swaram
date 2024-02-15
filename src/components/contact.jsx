@@ -33,7 +33,7 @@ function Contact() {
                 </div>
               </div>
               <div className="flex flex-col sm:justify-start  sm:w-[100%]">
-                <div className="text-[28px] text-[red] font-semibold sm:text-[18px]">Contact</div>
+                <div className="text-[28px] text-[red] font-semibold sm:text-[18px]">Helpdesk</div>
                 <div className="flex flex-col ">
                   <div>
                     <p className="text-[#7e7874] text-[18px] font-semibold sm:text-[16px]">Staff Coordinator</p>
