@@ -40,7 +40,7 @@ const Navbar1 = () => {
                     smooth={true}
                     offset={-200}
                     duration={500}
-                    onSetActive={handleSetActive}>Sponsers</Link>
+                    onSetActive={handleSetActive}>Sponsor</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to={'/gallary'} onClick={closeMenu} spy={true}

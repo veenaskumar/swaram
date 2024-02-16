@@ -24,7 +24,7 @@ function Contact() {
                   <a href="https://www.facebook.com/rcofkec">
                     <i className="bx bxl-facebook"></i>
                   </a>
-                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rotaractclub@kongu.edu">
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rotaractclub@kongu.ac.in">
                   <div><MdEmail /></div>
                   </a>
                   <a href="https://www.instagram.com/rotaract_club_of_kec/">
