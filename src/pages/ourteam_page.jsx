@@ -53,7 +53,7 @@ function Ourteam_page() {
                   </div>
                 </div>
               </section>
-              <section id="cards" className='py-[10px] w-[100%] flex flex-col gap-[4rem]'>
+              <section id="cards" className='py-[10px] w-[100%] flex flex-col gap-[4rem] justify-center items-center'>
               <div className='text-[28px] font-semibold text-center'>Backstage <span className='text-[red]'>Bees</span></div>
               <div class="row gap-y-[0rem] sm:gap-[0px] justify-center  w-[100%]  ">
                     {
