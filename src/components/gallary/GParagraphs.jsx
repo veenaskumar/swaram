@@ -23,12 +23,12 @@ const Paragraphs = ({ selectedYear }) => {
   }
   return (
     <div>
-      <div className='flex text-5xl  text-[white] justify-center font-bold mt-[50px] mb-[30px]'> What Guest's say About <span className='text-[red] pl-[10px]'>Swaram</span></div>
-    <div className='grid grid-cols-2 md:grid-cols-3 gap-4 pl-100  justify-evenly'>
+      <div className='flex text-5xl  text-[white] justify-center font-bold mt-[50px] mb-[30px] sm:text-[20px]'> What Guest's say About <span className='text-[red] pl-[10px]'>Swaram</span></div>
+    <div className='grid grid-cols-2 md:grid-cols-3 gap-4 pl-100  justify-evenly sm:grid-cols-1 '>
       {a.map((item) => (
         <Fade key={item.id} duration={3500} transition="ease-in-out">
-          <figure className="snip1192">
-            <blockquote>{item.quoute}</blockquote>
+          <figure className="snip1192 sm:flex sm:flex-col-reverse">
+            <blockquote className='sm:text-center'>{item.quoute}</blockquote>
             <div className="author">
               <img src={item.imageSrc} alt={item.altText} />
               <h5>{selectedYear}</h5>

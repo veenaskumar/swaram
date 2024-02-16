@@ -30,9 +30,9 @@ const GCarsol = ({ selectedYear }) => {
   }
   return (
     
-    <div className="relative w-[180vh] h-[80vh] z-[1000] rounded-bl-30">
+    <div className="relative w-[180vh] h-[63vh]  bg-black o  rounded-bl-30">
       {
-        <div className="top-0 left-0 min-h-[70vh] min-w-[70vh]  bg-[#252424]  bg-opacity-0 flex justify-center items-center direction-column flex-col">
+        <div className="top-[800px] left-0 min-h-[55vh] min-w-[50vh]  bg-[#252424]  bg-opacity-0 flex justify-center items-center direction-column flex-col " style={{ width: '30%', height: '70%' }}>
           {/* <div className="bg-white p-6 rounded" style={{ width: '30%', height: '70%' }}> */}
 
           <Swiper
@@ -43,7 +43,7 @@ const GCarsol = ({ selectedYear }) => {
             // className="mySwiper"
             slidesPerView={'auto'}
             autoplay={{
-              delay: 3000, // Set the delay in milliseconds between slides
+              delay: 1000, // Set the delay in milliseconds between slides
               disableOnInteraction: false, // Allow interaction to stop autoplay
             }}
             coverflowEffect={{
@@ -61,7 +61,7 @@ const GCarsol = ({ selectedYear }) => {
             className="mySwipe"
           >
             {b.map((item)=>
-            <SwiperSlide className='card' key={item.id}>
+            <SwiperSlide className='card z-[-1000]' key={item.id}>
               <img src={item.src} />
             </SwiperSlide>
             )}

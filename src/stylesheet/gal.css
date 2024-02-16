@@ -4,9 +4,15 @@
   width: 300px !important;
    /* Adjust width as needed */
 }
+@media (max-width: 768px) {
+  .o{
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
+}
 .swiper{
-  height: 300px !important;
-  width: 900px  !important;
+  height: 450px !important;
+  width: 90vw  !important;
   display: flex !important;
   justify-content: center !important; 
   align-items: center !important;
@@ -14,42 +20,23 @@
   /* display: none; */
   /* background-color: white; */
 }
-#gallary_page_background{
-  background-image: url('../assets/swaram_videos/logos/swaram_original_background.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center ;
-  background-size: 35%;
-  /* border: 1px solid red; */
-  background-position-y: 130px;
-  filter: brightness(80%);
-
-  
-}
 /* Optional: Adjust spacing between cards further */
 .mySwipe .swiper-slide-prev {
   margin-right: 10px;
 }
 .mySwipe{
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .mySwipe .swiper-slide-next {
   margin-left: 10px;
-}
-.close-pop-up{
-  margin-left: 900px !important;
-}
-.close-pop-up:hover{
-  /* border: 1px solid black; */
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #c0c0c0;
-  color: black;
+  
 }
 .swiper {
-  width: 100%;
+  width: 50%;
   padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* padding-bottom: 40px; */
 }
 
@@ -66,8 +53,9 @@
 .swiper-slide img {
   display: block;
   width: 100%;
+  height: 100%;
   text-align: center;
-  display: none;
+  /* display: none; */
 
 }
 
